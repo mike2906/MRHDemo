@@ -1,0 +1,118 @@
+package model;
+
+public class POSJournal {
+    private String CommissionOperator;
+
+    private String Name;
+
+    private String Quantity;
+
+    private String DateTime;
+
+    private String CommissionOperatorID;
+
+    private String Price;
+
+    private String ID;
+
+    private String SiteName;
+
+    private String SiteID;
+
+    public String getCommissionOperator ()
+    {
+        return CommissionOperator;
+    }
+
+    public void setCommissionOperator (String CommissionOperator)
+    {
+        this.CommissionOperator = CommissionOperator;
+    }
+
+    public String getName ()
+    {
+        return Name;
+    }
+
+    public void setName (String Name)
+    {
+        this.Name = Name;
+    }
+
+    public String getQuantity ()
+    {
+        return Quantity;
+    }
+
+    public void setQuantity (String Quantity)
+    {
+        this.Quantity = Quantity;
+    }
+
+    public String getDateTime ()
+    {
+        return DateTime;
+    }
+
+    public void setDateTime (String DateTime)
+    {
+        this.DateTime = DateTime;
+    }
+
+    public String getCommissionOperatorID ()
+    {
+        return CommissionOperatorID;
+    }
+
+    public void setCommissionOperatorID (String CommissionOperatorID)
+    {
+        this.CommissionOperatorID = CommissionOperatorID;
+    }
+
+    public String getPrice ()
+    {
+        return Price;
+    }
+
+    public void setPrice (String Price)
+    {
+        this.Price = Price;
+    }
+
+    public String getID ()
+    {
+        return ID;
+    }
+
+    public void setID (String ID)
+    {
+        this.ID = ID;
+    }
+
+    public String getSiteName ()
+    {
+        return SiteName;
+    }
+
+    public void setSiteName (String SiteName)
+    {
+        this.SiteName = SiteName;
+    }
+
+    public String getSiteID ()
+    {
+        return SiteID;
+    }
+
+    public void setSiteID (String SiteID)
+    {
+        this.SiteID = SiteID;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "POSJournal [CommissionOperatorMike = "+CommissionOperator+", Name = "+Name+", Quantity = "+Quantity+", DateTime = "+DateTime+", CommissionOperatorID = "+CommissionOperatorID+", Price = "+Price+", ID = "+ID+", SiteName = "+SiteName+", SiteID = "+SiteID+"]";
+    }
+}
+		

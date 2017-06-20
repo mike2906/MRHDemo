@@ -1,0 +1,5 @@
+package com.estafet.posjournalaggregator;
+
+public class ConcatenatingAggregationStrategy {
+
+}

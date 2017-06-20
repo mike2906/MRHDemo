@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Michael Ruse/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+  <path value="C:/Users/Michael Ruse/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/Michael Ruse/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar"/>
+  <path value="C:/Users/Michael Ruse/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/Michael Ruse/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <path value="C:/Users/Michael Ruse/.m2/repository/net/sf/dozer/dozer/5.5.1/dozer-5.5.1.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="18" name="%0" offset="359" path="%1"/>
+   <linked-el length="16" name="%0" offset="1562" path="%2"/>
+   <linked-el length="16" name="%0" offset="2153" path="%2"/>
+   <linked-el length="18" name="%0" offset="298" path="%1"/>
+   <linked-el length="18" name="%0" offset="236" path="%1"/>
+   <linked-el length="18" name="%0" offset="109" path="%1"/>
+   <linked-el length="16" name="%0" offset="912" path="%2"/>
+   <linked-el length="18" name="%0" offset="175" path="%1"/>
+   <linked-el length="16" name="%0" offset="1236" path="%2"/>
+   <linked-el length="16" name="%0" offset="1075" path="%2"/>
+   <linked-el length="16" name="%0" offset="1398" path="%2"/>
+   <linked-el length="16" name="%0" offset="5125" path="%2"/>
+   <linked-el length="11" name="%3" offset="1579" path="%4"/>
+   <linked-el length="79" name="%5" offset="414" path="%1"/>
+   <linked-el length="21" name="%5" offset="49" path="%1"/>
+   <linked-el length="33" name="%6" offset="1886" path="%7"/>
+   <linked-el length="34" name="%6" offset="1785" path="%7"/>
+   <linked-el length="79" name="%8" offset="414" path="%1"/>
+   <linked-el length="21" name="%8" offset="49" path="%1"/>
+   <linked-el length="18" name="%9" offset="359" path="%1"/>
+   <linked-el length="16" name="%9" offset="1562" path="%2"/>
+   <linked-el length="16" name="%9" offset="2153" path="%2"/>
+   <linked-el length="18" name="%9" offset="298" path="%1"/>
+   <linked-el length="18" name="%9" offset="236" path="%1"/>
+   <linked-el length="18" name="%9" offset="109" path="%1"/>
+   <linked-el length="16" name="%9" offset="912" path="%2"/>
+   <linked-el length="18" name="%9" offset="175" path="%1"/>
+   <linked-el length="16" name="%9" offset="1236" path="%2"/>
+   <linked-el length="16" name="%9" offset="1075" path="%2"/>
+   <linked-el length="16" name="%9" offset="1398" path="%2"/>
+   <linked-el length="16" name="%9" offset="5125" path="%2"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="version.camel" value="%0"/>
+  <alias path="ORIGIN" value="%3"/>
+  <alias path="/xml-to-json/src/main/resources/features.xml" value="%1"/>
+  <alias path="/xml-to-json/src/main/resources/transformation.xml" value="%4"/>
+  <alias path="/xml-to-json/pom.xml" value="%2"/>
+  <alias path="project" value="%5"/>
+  <alias
+   path="/xml-to-json/src/test/java/org/example/TransformationTest.java" value="%7"/>
+  <alias path="body" value="%6"/>
+  <alias path="project.version" value="%8"/>
+  <alias path="version" value="%9"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

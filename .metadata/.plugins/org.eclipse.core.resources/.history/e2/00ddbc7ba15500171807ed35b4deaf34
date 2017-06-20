@@ -1,0 +1,118 @@
+package model;
+
+public class POSJournal {
+    private String commissionOperator;
+
+    private String name;
+
+    private String quantity;
+
+    private String dateTime;
+
+    private String commissionOperatorID;
+
+    private String price;
+
+    private String iD;
+
+    private String siteName;
+
+    private String siteID;
+
+    public String getCommissionoperator ()
+    {
+        return commissionOperator;
+    }
+
+    public void setCommissionOperator (String commissionOperator)
+    {
+        this.commissionOperator = commissionOperator;
+    }
+
+    public String getName ()
+    {
+        return name;
+    }
+
+    public void setName (String name)
+    {
+        this.name = name;
+    }
+
+    public String getQuantity ()
+    {
+        return quantity;
+    }
+
+    public void setQuantity (String quantity)
+    {
+        this.quantity = quantity;
+    }
+
+    public String getDateTime ()
+    {
+        return dateTime;
+    }
+
+    public void setDateTime (String dateTime)
+    {
+        this.dateTime = dateTime;
+    }
+
+    public String getCommissionoperatorID ()
+    {
+        return commissionOperatorID;
+    }
+
+    public void setCommissionOperatorID (String commissionOperatorID)
+    {
+        this.commissionOperatorID = commissionOperatorID;
+    }
+
+    public String getPrice ()
+    {
+        return price;
+    }
+
+    public void setPrice (String price)
+    {
+        this.price = price;
+    }
+
+    public String getID ()
+    {
+        return iD;
+    }
+
+    public void setID (String iD)
+    {
+        this.iD = iD;
+    }
+
+    public String getSiteName ()
+    {
+        return siteName;
+    }
+
+    public void setSiteName (String siteName)
+    {
+        this.siteName = siteName;
+    }
+
+    public String getSiteID ()
+    {
+        return siteID;
+    }
+
+    public void setSiteID (String siteID)
+    {
+        this.siteID = siteID;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "POSJournal2 [commissionoperatorMike = "+commissionOperator+", name = "+name+", quantity = "+quantity+", dateTime = "+dateTime+", commissionoperatorID = "+commissionOperatorID+", price = "+price+", id = "+iD+", siteName = "+siteName+", siteID = "+siteID+"]";
+    }
+}
+		

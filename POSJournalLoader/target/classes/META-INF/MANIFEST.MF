@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1497969233128
+Build-Jdk: 1.8.0_121
+Built-By: Michael Ruse
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: Empty Camel Blueprint Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Blueprint Example [POSJournalLoader]
+Bundle-SymbolicName: POSJournalLoader
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: generated_1497953965160;uses:="javax.xml.bind.annotation
+ ,javax.xml.datatype";version="1.0.0",model;version="1.0.0"
+Import-Package: javax.xml.bind.annotation,javax.xml.datatype,org.apache.
+ activemq.camel.component;version="[5.11,6)",org.apache.camel.component.
+ sql;version="[2.17,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0
+ )",org.postgresql.ds,org.apache.el;version="[2,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
