@@ -12454,3 +12454,39 @@ Caused by: java.net.ConnectException: Connection refused: connect
 
 !ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:22:55.272
 !MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:39:25.779
+!MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:39:25.780
+!MESSAGE Unexpected child element of the context: propertyPlaceholder
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:40:05.718
+!MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:40:05.719
+!MESSAGE Unexpected child element of the context: propertyPlaceholder
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:40:35.393
+!MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:40:35.394
+!MESSAGE Unexpected child element of the context: propertyPlaceholder
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:40:52.512
+!MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:40:52.513
+!MESSAGE Unexpected child element of the context: propertyPlaceholder
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:41:00.557
+!MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:53:01.263
+!MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:53:53.524
+!MESSAGE ParseAttributes: Unsupported EIP will be ignored: camelContext
+
+!ENTRY org.fusesource.ide.camel.model.service.core 2 0 2017-06-21 10:53:53.526
+!MESSAGE Unexpected child element of the context: propertyPlaceholder

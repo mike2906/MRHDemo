@@ -31,13 +31,6 @@
       While it is not required to assign id's to the <camelContext/> and <route/> elements, it is a good idea
       to set those for runtime management purposes (logging, JMX MBeans, ...)
     -->
-    <!-- bean
-        class="org.springframework.jdbc.datasource.SimpleDriverDataSource" id="dataSource">
-        <property name="driverClassName" value="org.postgresql.Driver"/>
-        <property name="url" value="jdbc:postgresql://localhost:5432/MRH_EPDB"/>
-        <property name="username" value=null/>
-        <property name="password" value=null/>
-    </bean-->
     <bean class="org.postgresql.ds.PGPoolingDataSource"
         destroy-method="close" id="dataSource">
         <property name="serverName" value="localhost:5432"/>
@@ -66,8 +59,8 @@
         <route id="posJournalLoader">
             <from id="_to3" uri="activemq:topic:loadPOSJournal"/>
             <to id="_to1" uri="ref:toPOSJournal"/>
-            <log id="_log3" message="This is the siteID ${body.siteID}"/>
-        	<to id="_to2" uri="sql:{{sql.insertJournal}}"/>	
+            <log id="_logTransform" message="POS Journal Loader transformed file to POJO with body: ${body.siteID}"/>
+            <to id="_toJournalDBTable" uri="sql:{{sql.insertJournal}}"/>
         </route>
     </camelContext>
 </blueprint>
