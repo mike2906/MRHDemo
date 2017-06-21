@@ -57,20 +57,17 @@
     <bean class="org.apache.camel.component.sql.SqlComponent" id="sql">
         <property name="dataSource" ref="dataSource"/>
     </bean>
-    <camelContext id="_context1" xmlns="http://camel.apache.org/schema/blueprint">
+    <camelContext id="pos-journal-loader" xmlns="http://camel.apache.org/schema/blueprint">
         <propertyPlaceholder id="properties" location="classpath:sql.properties"/>
         <endpoint id="toPOSJournal" uri="dozer:toPOSJournal?sourceModel=generated_1497953965160.POSJournal&amp;targetModel=model.POSJournal&amp;unmarshalId=generated_1497953965160&amp;mappingFile=toPOSJournal.xml"/>
         <dataFormats>
             <jaxb contextPath="generated_1497953965160" id="generated_1497953965160"/>
         </dataFormats>
-        <route id="_route1">
-            <!--to id="_to2" uri="sql:{{sql.insertJournal}}"/-->
+        <route id="posJournalLoader">
             <from id="_to3" uri="activemq:topic:loadPOSJournal"/>
             <to id="_to1" uri="ref:toPOSJournal"/>
-            <log id="_log1" message="This is body ${body}"/>
-            <log id="_log2" message="This is the dateTime ${body.dateTime}"/>
             <log id="_log3" message="This is the siteID ${body.siteID}"/>
-            <to id="_to2" uri="sql:INSERT INTO journal(journal_datetime, site_id, site_name, commission_operatorid, commission_operator, item_id, item_name, item_price, item_quantity) VALUES (:#${body.dateTime}, :#${body.siteID}, :#${body.siteName}, :#${body.commissionOperatorID}, :#${body.commissionOperator}, :#${body.iD}, :#${body.name}, :#${body.price}, :#${body.quantity}) "/>
+        	<to id="_to2" uri="sql:{{sql.insertJournal}}"/>	
         </route>
     </camelContext>
 </blueprint>

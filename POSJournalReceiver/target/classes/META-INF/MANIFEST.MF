@@ -1,12 +1,13 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1497974877134
+Bnd-LastModified: 1498036975714
 Build-Jdk: 1.8.0_131
 Built-By: Michael Ruse
 Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
-Bundle-Description: Camel Content-Based Router Example
+Bundle-Description: Picks up XML from file, validates and places on topi
+ c
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
 Bundle-ManifestVersion: 2
-Bundle-Name: Camel Content-Based Router Example [POSJournalReceiver]
+Bundle-Name: POSJournalReceiver
 Bundle-SymbolicName: POSJournalReceiver
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin

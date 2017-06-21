@@ -35,7 +35,7 @@
         <property name="userName" value="admin"/>
         <property name="password" value="admin"/>
     </bean>
-    <camelContext id="mike-example-context" xmlns="http://camel.apache.org/schema/blueprint">
+    <camelContext id="pos-journal-receiver" xmlns="http://camel.apache.org/schema/blueprint">
         <!--
           When this route is started, it will automatically create the work/cbr/input directory where you can drop the
           file that need to be processed.
@@ -48,7 +48,7 @@
           moved to a directory for that country. The <otherwise/> element ensures that any file that does not meet the 
           requirements for either of the <when/> elements will be moved to the work/cbr/output/others directory.
         -->
-        <route id="cbr-route">
+        <route id="posJournalReceiver" shutdownRoute="Defer">
             <from id="_from1" uri="file:work/posjournal/input"/>
             <log id="_log1" message="Started Processing ${file:name}"/>
             <doTry id="_doTry1">

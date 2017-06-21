@@ -80,59 +80,37 @@
   <path value="C:/Users/Michael Ruse/.m2/repository/org/apache/activemq/activemq-client/5.11.0.redhat-630254/activemq-client-5.11.0.redhat-630254.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="350" name="%0" offset="4363" path="%1"/>
-   <linked-el length="350" name="%2" offset="4363" path="%1"/>
-   <linked-el length="39" name="%2" offset="4217" path="%1"/>
-   <linked-el length="350" name="%3" offset="4363" path="%1"/>
-   <linked-el length="35" name="%3" offset="4295" path="%1"/>
-   <linked-el length="30" name="%4" offset="5344" path="%5"/>
-   <linked-el length="22" name="%6" offset="4156" path="%1"/>
-   <linked-el length="350" name="%6" offset="4363" path="%1"/>
-   <linked-el length="39" name="%6" offset="4217" path="%1"/>
-   <linked-el length="35" name="%6" offset="4295" path="%1"/>
-   <linked-el length="30" name="%7" offset="5344" path="%5"/>
-   <linked-el length="350" name="%8" offset="4363" path="%1"/>
-   <linked-el length="350" name="%9" offset="4363" path="%1"/>
-   <linked-el length="350" name="%10" offset="4363" path="%1"/>
-   <linked-el length="25" name="%11" offset="1293" path="%5"/>
-   <linked-el length="25" name="%12" offset="1293" path="%5"/>
-   <linked-el length="30" name="%13" offset="5344" path="%5"/>
-   <linked-el length="16" name="%14" offset="6340" path="%5"/>
-   <linked-el length="25" name="%15" offset="1293" path="%5"/>
-   <linked-el length="350" name="%16" offset="4363" path="%1"/>
-   <linked-el length="350" name="%17" offset="4363" path="%1"/>
-   <linked-el length="25" name="%18" offset="1293" path="%5"/>
-   <linked-el length="30" name="%19" offset="5344" path="%5"/>
-   <linked-el length="350" name="%20" offset="4363" path="%1"/>
-   <linked-el length="16" name="%21" offset="6340" path="%5"/>
+   <linked-el length="35" name="%0" offset="4109" path="%1"/>
+   <linked-el length="30" name="%2" offset="5385" path="%3"/>
+   <linked-el length="35" name="%4" offset="4109" path="%1"/>
+   <linked-el length="30" name="%5" offset="5385" path="%3"/>
+   <linked-el length="25" name="%6" offset="1334" path="%3"/>
+   <linked-el length="25" name="%7" offset="1334" path="%3"/>
+   <linked-el length="30" name="%8" offset="5385" path="%3"/>
+   <linked-el length="16" name="%9" offset="6349" path="%3"/>
+   <linked-el length="25" name="%10" offset="1334" path="%3"/>
+   <linked-el length="25" name="%11" offset="1334" path="%3"/>
+   <linked-el length="30" name="%12" offset="5385" path="%3"/>
+   <linked-el length="16" name="%13" offset="6349" path="%3"/>
   </el>
  </validation>
  <aliases>
-  <alias path="body.iD" value="%0"/>
-  <alias path="body.dateTime" value="%2"/>
-  <alias path="body.siteID" value="%3"/>
+  <alias path="body.siteID" value="%0"/>
   <alias
    path="/POSJournalLoader/src/main/resources/OSGI-INF/blueprint/blueprint.xml" value="%1"/>
-  <alias path="version.maven" value="%4"/>
-  <alias path="body" value="%6"/>
-  <alias path="version" value="%7"/>
-  <alias path="body.name" value="%8"/>
-  <alias path="/POSJournalLoader/pom.xml" value="%5"/>
-  <alias path="body.commissionOperatorID" value="%9"/>
-  <alias path="body.price" value="%10"/>
-  <alias path="jboss.fuse.bom" value="%11"/>
-  <alias path="jboss" value="%12"/>
-  <alias path="plugin" value="%13"/>
-  <alias path="camel" value="%14"/>
-  <alias path="jboss.fuse" value="%15"/>
-  <alias path="body.quantity" value="%16"/>
-  <alias path="body.commissionOperator" value="%17"/>
-  <alias path="jboss.fuse.bom.version" value="%18"/>
-  <alias path="bundle" value="%19"/>
-  <alias path="body.siteName" value="%20"/>
-  <alias path="camel.version" value="%21"/>
+  <alias path="version.maven" value="%2"/>
+  <alias path="body" value="%4"/>
+  <alias path="version" value="%5"/>
+  <alias path="/POSJournalLoader/pom.xml" value="%3"/>
+  <alias path="jboss.fuse.bom" value="%6"/>
+  <alias path="jboss" value="%7"/>
+  <alias path="plugin" value="%8"/>
+  <alias path="camel" value="%9"/>
+  <alias path="jboss.fuse" value="%10"/>
+  <alias path="jboss.fuse.bom.version" value="%11"/>
+  <alias path="bundle" value="%12"/>
+  <alias path="camel.version" value="%13"/>
  </aliases>
  <includes/>
  <uris/>

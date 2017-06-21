@@ -1,12 +1,13 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1497969233128
-Build-Jdk: 1.8.0_121
+Bnd-LastModified: 1498036813958
+Build-Jdk: 1.8.0_131
 Built-By: Michael Ruse
 Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
-Bundle-Description: Empty Camel Blueprint Example
+Bundle-Description: Subscribes to topic then transforms to pojo before l
+ oading into a Postgres DB.
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
 Bundle-ManifestVersion: 2
-Bundle-Name: Empty Camel Blueprint Example [POSJournalLoader]
+Bundle-Name: POSJournalLoader
 Bundle-SymbolicName: POSJournalLoader
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin

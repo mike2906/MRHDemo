@@ -2,12 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany</groupId>
+  <groupId>com.mrh.demo</groupId>
   <artifactId>camel-blueprint</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
-  <name>Camel Blueprint Quickstart</name>
-  <description>Empty Camel Blueprint Example</description>
+  <name>POS Journal Loader</name>
+  <description>Subscribes to topic then transforms to pojo before loading into a Postgres DB. </description>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -168,7 +168,7 @@
         <configuration>
           <instructions>
             <Bundle-SymbolicName>POSJournalLoader</Bundle-SymbolicName>
-            <Bundle-Name>Empty Camel Blueprint Example [POSJournalLoader]</Bundle-Name>
+            <Bundle-Name>POSJournalLoader</Bundle-Name>
             <Import-Package>*,org.apache.el;version="[2,3)"</Import-Package>
           </instructions>
         </configuration>

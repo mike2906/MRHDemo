@@ -2,12 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany</groupId>
+  <groupId>com.mrh.demo</groupId>
   <artifactId>camel-blueprint-cbr</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
-  <name>Fuse CBR Quickstart</name>
-  <description>Camel Content-Based Router Example</description>
+  <name>POS Journal Receiver</name>
+  <description>Picks up XML from file, validates and places on topic</description>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -144,7 +144,7 @@
         <configuration>
           <instructions>
             <Bundle-SymbolicName>POSJournalReceiver</Bundle-SymbolicName>
-            <Bundle-Name>Camel Content-Based Router Example [POSJournalReceiver]</Bundle-Name>
+            <Bundle-Name>POSJournalReceiver</Bundle-Name>
           </instructions>
         </configuration>
       </plugin>
