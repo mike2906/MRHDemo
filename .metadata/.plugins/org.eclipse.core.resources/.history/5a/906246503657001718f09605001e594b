@@ -1,0 +1,324 @@
+
+package generated_1498122560256;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlSchemaType;
+import javax.xml.bind.annotation.XmlType;
+import javax.xml.datatype.XMLGregorianCalendar;
+
+
+/**
+ * <p>Java class for anonymous complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType>
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element name="Item">
+ *           &lt;complexType>
+ *             &lt;complexContent>
+ *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *                 &lt;sequence>
+ *                   &lt;element name="SiteID" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+ *                   &lt;element name="SiteName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="CommissionOperatorID" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+ *                   &lt;element name="CommissionOperator" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="DateTime" type="{http://www.w3.org/2001/XMLSchema}dateTime"/>
+ *                   &lt;element name="ItemID" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+ *                   &lt;element name="ItemName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="ItemPrice" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *                   &lt;element name="ItemQuantity" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+ *                 &lt;/sequence>
+ *               &lt;/restriction>
+ *             &lt;/complexContent>
+ *           &lt;/complexType>
+ *         &lt;/element>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = {
+    "item"
+})
+@XmlRootElement(name = "POSJournal")
+public class POSJournal {
+
+    @XmlElement(name = "Item", required = true)
+    protected POSJournal.Item item;
+
+    /**
+     * Gets the value of the item property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link POSJournal.Item }
+     *     
+     */
+    public POSJournal.Item getItem() {
+        return item;
+    }
+
+    /**
+     * Sets the value of the item property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link POSJournal.Item }
+     *     
+     */
+    public void setItem(POSJournal.Item value) {
+        this.item = value;
+    }
+
+
+    /**
+     * <p>Java class for anonymous complex type.
+     * 
+     * <p>The following schema fragment specifies the expected content contained within this class.
+     * 
+     * <pre>
+     * &lt;complexType>
+     *   &lt;complexContent>
+     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     *       &lt;sequence>
+     *         &lt;element name="SiteID" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+     *         &lt;element name="SiteName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="CommissionOperatorID" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+     *         &lt;element name="CommissionOperator" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="DateTime" type="{http://www.w3.org/2001/XMLSchema}dateTime"/>
+     *         &lt;element name="ItemID" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+     *         &lt;element name="ItemName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="ItemPrice" type="{http://www.w3.org/2001/XMLSchema}float"/>
+     *         &lt;element name="ItemQuantity" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+     *       &lt;/sequence>
+     *     &lt;/restriction>
+     *   &lt;/complexContent>
+     * &lt;/complexType>
+     * </pre>
+     * 
+     * 
+     */
+    @XmlAccessorType(XmlAccessType.FIELD)
+    @XmlType(name = "", propOrder = {
+        "siteID",
+        "siteName",
+        "commissionOperatorID",
+        "commissionOperator",
+        "dateTime",
+        "itemID",
+        "itemName",
+        "itemPrice",
+        "itemQuantity"
+    })
+    public static class Item {
+
+        @XmlElement(name = "SiteID")
+        protected byte siteID;
+        @XmlElement(name = "SiteName", required = true)
+        protected String siteName;
+        @XmlElement(name = "CommissionOperatorID")
+        protected byte commissionOperatorID;
+        @XmlElement(name = "CommissionOperator", required = true)
+        protected String commissionOperator;
+        @XmlElement(name = "DateTime", required = true)
+        @XmlSchemaType(name = "dateTime")
+        protected XMLGregorianCalendar dateTime;
+        @XmlElement(name = "ItemID")
+        protected byte itemID;
+        @XmlElement(name = "ItemName", required = true)
+        protected String itemName;
+        @XmlElement(name = "ItemPrice")
+        protected float itemPrice;
+        @XmlElement(name = "ItemQuantity")
+        protected byte itemQuantity;
+
+        /**
+         * Gets the value of the siteID property.
+         * 
+         */
+        public byte getSiteID() {
+            return siteID;
+        }
+
+        /**
+         * Sets the value of the siteID property.
+         * 
+         */
+        public void setSiteID(byte value) {
+            this.siteID = value;
+        }
+
+        /**
+         * Gets the value of the siteName property.
+         * 
+         * @return
+         *     possible object is
+         *     {@link String }
+         *     
+         */
+        public String getSiteName() {
+            return siteName;
+        }
+
+        /**
+         * Sets the value of the siteName property.
+         * 
+         * @param value
+         *     allowed object is
+         *     {@link String }
+         *     
+         */
+        public void setSiteName(String value) {
+            this.siteName = value;
+        }
+
+        /**
+         * Gets the value of the commissionOperatorID property.
+         * 
+         */
+        public byte getCommissionOperatorID() {
+            return commissionOperatorID;
+        }
+
+        /**
+         * Sets the value of the commissionOperatorID property.
+         * 
+         */
+        public void setCommissionOperatorID(byte value) {
+            this.commissionOperatorID = value;
+        }
+
+        /**
+         * Gets the value of the commissionOperator property.
+         * 
+         * @return
+         *     possible object is
+         *     {@link String }
+         *     
+         */
+        public String getCommissionOperator() {
+            return commissionOperator;
+        }
+
+        /**
+         * Sets the value of the commissionOperator property.
+         * 
+         * @param value
+         *     allowed object is
+         *     {@link String }
+         *     
+         */
+        public void setCommissionOperator(String value) {
+            this.commissionOperator = value;
+        }
+
+        /**
+         * Gets the value of the dateTime property.
+         * 
+         * @return
+         *     possible object is
+         *     {@link XMLGregorianCalendar }
+         *     
+         */
+        public XMLGregorianCalendar getDateTime() {
+            return dateTime;
+        }
+
+        /**
+         * Sets the value of the dateTime property.
+         * 
+         * @param value
+         *     allowed object is
+         *     {@link XMLGregorianCalendar }
+         *     
+         */
+        public void setDateTime(XMLGregorianCalendar value) {
+            this.dateTime = value;
+        }
+
+        /**
+         * Gets the value of the itemID property.
+         * 
+         */
+        public byte getItemID() {
+            return itemID;
+        }
+
+        /**
+         * Sets the value of the itemID property.
+         * 
+         */
+        public void setItemID(byte value) {
+            this.itemID = value;
+        }
+
+        /**
+         * Gets the value of the itemName property.
+         * 
+         * @return
+         *     possible object is
+         *     {@link String }
+         *     
+         */
+        public String getItemName() {
+            return itemName;
+        }
+
+        /**
+         * Sets the value of the itemName property.
+         * 
+         * @param value
+         *     allowed object is
+         *     {@link String }
+         *     
+         */
+        public void setItemName(String value) {
+            this.itemName = value;
+        }
+
+        /**
+         * Gets the value of the itemPrice property.
+         * 
+         */
+        public float getItemPrice() {
+            return itemPrice;
+        }
+
+        /**
+         * Sets the value of the itemPrice property.
+         * 
+         */
+        public void setItemPrice(float value) {
+            this.itemPrice = value;
+        }
+
+        /**
+         * Gets the value of the itemQuantity property.
+         * 
+         */
+        public byte getItemQuantity() {
+            return itemQuantity;
+        }
+
+        /**
+         * Sets the value of the itemQuantity property.
+         * 
+         */
+        public void setItemQuantity(byte value) {
+            this.itemQuantity = value;
+        }
+
+    }
+
+}

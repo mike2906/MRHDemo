@@ -1,0 +1,120 @@
+package model;
+
+import java.util.Date;
+
+public class POSJournal {
+    private String commissionOperator;
+
+    private String itemName;
+
+    private float itemQuantity;
+
+    private Date dateTime;
+
+    private int commissionOperatorID;
+
+    private float itemPrice;
+
+    private int itemID;
+
+    private String siteName;
+
+    private int siteID;
+
+    public String getCommissionOperator ()
+    {
+        return commissionOperator;
+    }
+
+    public void setCommissionOperator (String commissionOperator)
+    {
+        this.commissionOperator = commissionOperator;
+    }
+
+    public String getName ()
+    {
+        return itemName;
+    }
+
+    public void setName (String itemName)
+    {
+        this.itemName = itemName;
+    }
+
+    public float getQuantity ()
+    {
+        return itemQuantity;
+    }
+
+    public void setQuantity (float itemQuantity)
+    {
+        this.itemQuantity = itemQuantity;
+    }
+
+    public Date getDateTime ()
+    {
+        return dateTime;
+    }
+
+    public void setDateTime (Date dateTime)
+    {
+        this.dateTime = dateTime;
+    }
+
+    public int getCommissionOperatorID ()
+    {
+        return commissionOperatorID;
+    }
+
+    public void setCommissionOperatorID (int commissionOperatorID)
+    {
+        this.commissionOperatorID = commissionOperatorID;
+    }
+
+    public float getPrice ()
+    {
+        return itemPrice;
+    }
+
+    public void setPrice (float itemPrice)
+    {
+        this.itemPrice = itemPrice;
+    }
+
+    public int getID ()
+    {
+        return itemID;
+    }
+
+    public void setID (int itemID)
+    {
+        this.itemID = itemID;
+    }
+
+    public String getSiteName ()
+    {
+        return siteName;
+    }
+
+    public void setSiteName (String siteName)
+    {
+        this.siteName = siteName;
+    }
+
+    public int getSiteID ()
+    {
+        return siteID;
+    }
+
+    public void setSiteID (int siteID)
+    {
+        this.siteID = siteID;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "POSJournal2 [commissionoperatorMike = "+commissionOperator+", itemName = "+itemName+", itemQuantity = "+itemQuantity+", dateTime = "+dateTime+", commissionoperatorID = "+commissionOperatorID+", itemPrice = "+itemPrice+", itemID = "+itemID+", siteName = "+siteName+", siteID = "+siteID+"]";
+    }
+}
+		
