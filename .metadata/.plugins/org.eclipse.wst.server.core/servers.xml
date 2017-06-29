@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servers>
-  <server hostname="localhost" id="jboss-fuse-6.3.0.redhat-187 Runtime Server" name="jboss-fuse-6.3.0.redhat-187 Runtime Server" runtime-id="jboss-fuse-6.3.0.redhat-187 Runtime" server-type="org.fusesource.ide.fuseesb.server.63" server-type-id="org.fusesource.ide.fuseesb.server.63" sshPort="8101" start-timeout="90" stop-timeout="45" timestamp="68" userId="admin">
-    <list key="modules" value0="POSJournalReceiver::org.eclipse.jst.j2ee.server:POSJournalReceiver::jst.utility::1.0" value1="POSJournalLoader::org.eclipse.jst.j2ee.server:POSJournalLoader::jst.utility::1.0"/>
-  </server>
-</servers>

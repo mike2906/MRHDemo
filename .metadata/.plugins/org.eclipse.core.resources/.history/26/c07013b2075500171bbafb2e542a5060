@@ -1,2 +1,0 @@
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.estafet.com", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package com.estafet_1497882899245;

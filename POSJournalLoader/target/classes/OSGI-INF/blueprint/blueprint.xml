@@ -59,7 +59,7 @@
         <route id="posJournalLoader">
             <from id="_to3" uri="activemq:topic:loadPOSJournal"/>
             <to id="_to1" uri="ref:toPOSJournal"/>
-            <log id="_logTransform" message="POS Journal Loader transformed file to POJO with body: ${body.siteID}"/>
+            <log id="_logTransform" message="POS Journal Loader transformed file to POJO with body: ${body}"/>
             <to id="_toJournalDBTable" uri="sql:{{sql.insertJournal}}"/>
         </route>
     </camelContext>

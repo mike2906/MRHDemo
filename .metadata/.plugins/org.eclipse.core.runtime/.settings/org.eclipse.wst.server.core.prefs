@@ -1,3 +1,0 @@
-eclipse.preferences.version=1
-module-start-timeout=300000
-runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime PROPERTY_VM_ID\="1497436780878" PROPERTY_VM_TYPE_ID\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType" id\="jboss-fuse-6.3.0.redhat-187 Runtime" id-set\="true" location\="C\:/Users/Michael Ruse/Fuse/jboss-fuse-karaf-6.3.0.redhat-187/jboss-fuse-6.3.0.redhat-187" name\="jboss-fuse-6.3.0.redhat-187 Runtime" runtime-type-id\="org.fusesource.ide.fuseesb.runtime.63" timestamp\="1"/>\r\n</runtimes>\r\n

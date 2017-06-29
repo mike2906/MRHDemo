@@ -1,3 +1,0 @@
-## notice we use named parameters in the queries, eg :#name. A named query parameter must start with :#
-## sql that insert new Journal
-sql.insertJournal=INSERT INTO journal(journal_datetime, site_id, site_name, commission_operatorid, commission_operator, item_id, item_name, item_price, item_quantity) VALUES (\:\#DateTime;, \:\#SiteID, \:\#SiteName, \:\#CommissionOperatorID, \:\#CommissionOperator, \:\#ID, \:\#Name, \:\#Price, \:\#Quantity)
